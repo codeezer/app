@@ -14,12 +14,12 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'kaka';
 });
 
 
 Route::get('show','ResponseController@show');
-Route::get('response','ResponseController@rest');
+Route::get('response','ResponseController@response');
 
 Route::get('json', function()
 {

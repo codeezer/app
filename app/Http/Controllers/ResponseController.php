@@ -10,21 +10,20 @@ use App\Http\Controllers\Controller;
 class ResponseController extends Controller
 {
     //
-    public function rest()
+    public function response()
     {
-        $response = $this->jsonResponseTest();
-        $user = array('Ramesh Neupane');
-        $json = '{"foo":12345}';
+        $user ='Ramesh Neupane';
+        $json ='[{"firstName":"John", "lastName":"Doe"},
+                {"firstName":"Anna", "lastName":"Smith"},
+                {"firstName":"Peter","lastName":"Jones"}]';
+
         $pjson = json_decode($json);
-        return $json;
+        echo $user .'<br>';
+        echo $pjson[0]->firstName;
+        echo ' '.$pjson[0]->lastName;
+        
     }
 
-    private function jsonResponseTest()
-    {
-        return Response::json([
-            'data' => 'it works'
-        ],200);
-    }
 
     public function show()
     {

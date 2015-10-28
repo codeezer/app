@@ -14,9 +14,12 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
 
+Route::get('/laravel', function () {
+    return view('welcome');
+});
 
 Route::get('show','ResponseController@show');
 Route::get('response','ResponseController@response');

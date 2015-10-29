@@ -170,14 +170,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>I am </p>
+                    <h4>about me</h4>
+                    <p>Hi, I am <b>Ramesh Neupane</b>. My friends call me <i>ramese</i>. On the internet, I'm <i>Ezer Neupane Rames</i>. </p>
+                    <p>I'm currently studying <i>Electronics and Communication Engineering</i> at Pulchowk Engineering Campus, Lalitpur, Nepal.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <h4>about aircrack</h4>
+                    <p>Aircrack-ng is a network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker and analysis tool for 802.11 wireless LANs.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                        <i class="fa fa-download"></i> Elu Pilu
                     </a>
                 </div>
             </div>
@@ -270,7 +273,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        {{-- <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p> --}}
                     </div>
                 </div>
             </div>

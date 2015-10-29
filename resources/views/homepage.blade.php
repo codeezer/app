@@ -180,7 +180,7 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Elu Pilu
+                        <i class="fa fa-download"></i> Download Me :D
                     </a>
                 </div>
             </div>

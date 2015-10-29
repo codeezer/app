@@ -102,7 +102,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/img/foods/dhindo.png" class="img-responsive" alt="">
+                        <img src="assets/img/foods/dhindo.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -311,7 +311,7 @@
                         <div class="modal-body">
                             <h2>Dhindo</h2>
                             <hr class="star-primary">
-                            <img src="assets/img/foods/dhindo.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/foods/dhindo.jpg" class="img-responsive img-centered" alt="">
                             <p><i>Dhindo or Dhido</i> (pronounced dhee-dough) sounds like some exotic dish from Nepal, but it is simply a thick porridge or mush, made by cooking stone-ground cornmeal (ghatta maa pidheko makai ko pitho), millet flour (kodo ko pitho) or buckwheat flour (phaapar ko pitho) with salt and water.</p>
 
                 <p><i>Dhindo</i> has been a staple food of most rural and middle mountain-area people of Nepal, especially in dry areas where rice or wheat corps are difficult to grow. This hearty and filling dish is a nutrient powerhouse and is often eaten with a dab of homemade butter or clarified butter (nauni, gheu), curried vegetables (jhol tarkaari), or with various pickles, buttermilk or yogurt. <i>Gundruk-Dhindo</i> is the most common combination served in farming communities. Gundruk is a fermented and preserved leafy vegetable that is used to prepare a soup like dish that is known as gundruk ko jhol. Traditional <i>dhindo</i> meals are served on typical Nepali round plates called thaal made of stainless steel or brass with small bowls. Nepalese people who do hard physical labor consume enormous amounts of this nutritious meal. It is very common to see a large mounds of Dindo served in the middle of thaal accompanied by side dishes in small portions. It is eaten with the right hand by first scooping up or tearing small bite-size pieces of <i>shindo</i> with your fingers, then dipping or rolling into the sauce before you put in your mouth. It is a Nepali tradition to always wash hands prior to eating and after the meal. <i>Dhindo</i> should be eaten steaming hot, right after cooking since it hardens once it cools. </p>

@@ -1,7 +1,9 @@
 /vendor
 /node_modules
 .env
-public/assets/**
 Thumbs.db
 /.idea
 .DS_Store
+* text=auto
+*.css linguist-vendored
+*.less linguist-vendored

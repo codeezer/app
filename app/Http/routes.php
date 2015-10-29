@@ -24,7 +24,7 @@ Route::get('/laravel', function () {
 Route::get('show','ResponseController@show');
 Route::get('response','ResponseController@response');
 
-Route::get('json', function()
+/*Route::get('json', function()
 {
     $users = App\User::all();
     $kaka = json_decode($users);
@@ -37,4 +37,22 @@ Route::get('json', function()
     foreach ($kaka[2] as $key=>$value) {
         echo $key.' = '.$value.'<br>';
     }
+});*/
+
+Route::get('/save',function(){
+
+    $user = new App\User;
+    $user->name='Rashila Neupane';
+    $user->email='rashila@gmail.com';
+    $user->password='rashu';
+    $user->remember_token='1818';
+    $user->save();
+});
+
+Route::get('/form',function(){
+    return view('form');
+});
+
+Route::get('/elu',function(){
+    return view('form');
 });

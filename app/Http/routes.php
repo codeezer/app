@@ -56,3 +56,23 @@ Route::get('/form',function(){
 Route::get('/elu',function(){
     return view('form');
 });
+
+
+Route::get('login',function(){
+    return response()->json(['success' => 'Successfull', 'message' => 'Hey , I will kill you ', 'user_id' => '1']);
+});
+
+
+    // public function response()
+    // {
+    //     $user ='Ramesh Neupane';
+    //     $json ='[{"firstName":"John", "lastName":"Doe"},
+    //             {"firstName":"Anna", "lastName":"Smith"},
+    //             {"firstName":"Peter","lastName":"Jones"}]';
+
+    //     $pjson = json_decode($json);
+    //     echo $user .'<br>';
+    //     echo $pjson[0]->firstName;
+    //     echo ' '.$pjson[0]->lastName;
+        
+    // }

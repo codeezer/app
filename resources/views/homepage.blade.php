@@ -74,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="assets/img/logo.png" alt="">
                     <div class="intro-text">
                         <span class="name">Start Exploring</span>
                         <hr class="star-light">
@@ -112,7 +112,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="assets/img/foods/dalbhat.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -122,7 +122,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="assets/img/foods/selroti.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -314,7 +314,9 @@
                             <img src="assets/img/foods/dhindo.jpg" class="img-responsive img-centered" alt="">
                             <p><i>Dhindo or Dhido</i> (pronounced dhee-dough) sounds like some exotic dish from Nepal, but it is simply a thick porridge or mush, made by cooking stone-ground cornmeal (ghatta maa pidheko makai ko pitho), millet flour (kodo ko pitho) or buckwheat flour (phaapar ko pitho) with salt and water.</p>
 
-                <p><i>Dhindo</i> has been a staple food of most rural and middle mountain-area people of Nepal, especially in dry areas where rice or wheat corps are difficult to grow. This hearty and filling dish is a nutrient powerhouse and is often eaten with a dab of homemade butter or clarified butter (nauni, gheu), curried vegetables (jhol tarkaari), or with various pickles, buttermilk or yogurt. <i>Gundruk-Dhindo</i> is the most common combination served in farming communities. Gundruk is a fermented and preserved leafy vegetable that is used to prepare a soup like dish that is known as gundruk ko jhol. Traditional <i>dhindo</i> meals are served on typical Nepali round plates called thaal made of stainless steel or brass with small bowls. Nepalese people who do hard physical labor consume enormous amounts of this nutritious meal. It is very common to see a large mounds of Dindo served in the middle of thaal accompanied by side dishes in small portions. It is eaten with the right hand by first scooping up or tearing small bite-size pieces of <i>shindo</i> with your fingers, then dipping or rolling into the sauce before you put in your mouth. It is a Nepali tradition to always wash hands prior to eating and after the meal. <i>Dhindo</i> should be eaten steaming hot, right after cooking since it hardens once it cools. </p>
+                <p>
+                    <i>Dhindo</i> has been a staple food of most rural and middle mountain-area people of Nepal, especially in dry areas where rice or wheat corps are difficult to grow. This hearty and filling dish is a nutrient powerhouse and is often eaten with a dab of homemade butter or clarified butter (nauni, gheu), curried vegetables (jhol tarkaari), or with various pickles, buttermilk or yogurt. <i>Gundruk-Dhindo</i> is the most common combination served in farming communities. Gundruk is a fermented and preserved leafy vegetable that is used to prepare a soup like dish that is known as gundruk ko jhol. Traditional <i>dhindo</i> meals are served on typical Nepali round plates called thaal made of stainless steel or brass with small bowls. Nepalese people who do hard physical labor consume enormous amounts of this nutritious meal. It is very common to see a large mounds of Dindo served in the middle of thaal accompanied by side dishes in small portions. It is eaten with the right hand by first scooping up or tearing small bite-size pieces of <i>shindo</i> with your fingers, then dipping or rolling into the sauce before you put in your mouth. It is a Nepali tradition to always wash hands prior to eating and after the meal. <i>Dhindo</i> should be eaten steaming hot, right after cooking since it hardens once it cools.
+                </p>
 
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -349,13 +351,15 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Dal Bhat</h2>
                             <hr class="star-primary">
-                            <img src="assets/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="assets/img/foods/dalbhat.jpg" class="img-responsive img-centered" alt="">
+                            <p>
+                                Due to farming restrictions in some of the higher regions of Nepal, rice is often substituted with other grains, such as cornmeal and barley, in addition to potatoes, unleavened breads and dhido (a porridge-like consistency, made using flour and hot water). This is most visible when looking at the indisputably popular dish, Dal Bhat. If Nepal had a national dish, this would be it. Having crossed the border from Bengal, Dal Bhat consists of a rice (or substitute) centre, alongside lentils which are surrounded by various different dishes. Sides can include pickles, curried dishes, meat or fish, yoghurt, and chutney. Rice in Nepal is regularly replaced with roti, an unleavened bread. The variations of this dish are countless, but it is important when visiting to try at least one of them in order to get an authentic taste of Nepalese cuisine.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Video:
+                                    <strong><a href="https://www.youtube.com/watch?v=DWnjgex0RWE">Dal Bhat Nepali Cooking</a>
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -386,10 +390,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Sel Roti</h2>
                             <hr class="star-primary">
-                            <img src="assets/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="assets/img/foods/selroti.jpg" class="img-responsive img-centered" alt="">
+                            <p>
+                                Most commonly consumed during Tihar and Dashai, sel roti is one of the most unique dishes that this hilly landscape has to offer. It may well look like a cross between a doughnut and a bagel, but sel roti is actually made of rice flour and is like no other bread in the world. A crispy and sweet outer surface gives way to a puffy and soft-textured dough. The rice flour bread is deep fried and worked into a circular shape. It is the perfect snack or breakfast treat. Perfect when dipped in yoghurt, alongside vegetables, or simply enjoyed by itself. Sel roti can be found from street vendors, and is best eaten fresh.
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>

@@ -13,6 +13,6 @@
 	{!!Form::password('pass')!!}</h3>
 
 	{!!Form::submit('Add')!!}
-	{!!Form::close()!!}
+    {!!Form::close()!!}
 </body>
 </html>

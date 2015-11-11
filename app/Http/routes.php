@@ -51,7 +51,12 @@ Route::get('/form',function(){
     return view('form');
 });
 
-Route::get('login',function(){
+Route::get('/happy',function(){
+    return view('iptrace');
+});
+
+
+Route::get('/login',function(){
     return response()->json(['success' => 'Successfull', 'message' => 'Hey , I will kill you ', 'user_id' => '1']);
 });
 

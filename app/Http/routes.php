@@ -55,6 +55,11 @@ Route::get('/happy',function(){
     return view('iptrace');
 });
 
+Route::get('/ipview',function(){
+    return view('ipview');
+});
+
+
 
 Route::get('/login',function(){
     return response()->json(['success' => 'Successfull', 'message' => 'Hey , I will kill you ', 'user_id' => '1']);

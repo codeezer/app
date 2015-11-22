@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,42 +14,36 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/laraveldefault', function () {
+Route::get('default', function () {
     return view('welcome');
+});
+
+Route::get('home',function(){
+    if(Auth::guest()){
+        return Redirect::to('auth/login');
+    }else{
+        echo "welcome you're logged in";
+    }
+    
 });
 
 Route::get('show','ResponseController@show');
 Route::get('response','ResponseController@response');
+Route::post('add','ResponseController@add');
+Route::get('login','ResponseController@login');
+Route::get('user/{id}','ResponseController@user');
 
-/*Route::get('json', function()
-{
-    $users = App\User::all();
-    $kaka = json_decode($users);
-    foreach ($kaka[0] as $key=>$value) {
-        echo $key.' = '.$value.'<br>';
-    }
-    foreach ($kaka[1] as $key=>$value) {
-        echo $key.' = '.$value.'<br>';
-    }
-    foreach ($kaka[2] as $key=>$value) {
-        echo $key.' = '.$value.'<br>';
-    }
-});*/
+//**********************************************************************8
+// Authentication routes...
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin'); 
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
-Route::get('/save',function(){
+// Registration routes...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
 
-    $user = new App\User;
-    $user->name='Rashila Neupane';
-    $user->email='rashila@gmail.com';
-    $user->password='rashu';
-    $user->remember_token='1818';
-    $user->save();
-});
-
-Route::get('/form',function(){
-    return view('form');
-});
-
+//########################################################################
 Route::get('/happy',function(){
     return view('iptrace');
 });
@@ -58,24 +51,3 @@ Route::get('/happy',function(){
 Route::get('/ipview',function(){
     return view('ipview');
 });
-
-
-
-Route::get('/login',function(){
-    return response()->json(['success' => 'Successfull', 'message' => 'Hey , I will kill you ', 'user_id' => '1']);
-});
-
-
-    // public function response()
-    // {
-    //     $user ='Ramesh Neupane';
-    //     $json ='[{"firstName":"John", "lastName":"Doe"},
-    //             {"firstName":"Anna", "lastName":"Smith"},
-    //             {"firstName":"Peter","lastName":"Jones"}]';
-
-    //     $pjson = json_decode($json);
-    //     echo $user .'<br>';
-    //     echo $pjson[0]->firstName;
-    //     echo ' '.$pjson[0]->lastName;
-        
-    // }

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use Response;
 use App\User;
-use Illuminate\Http\Request;
+use Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -30,4 +30,26 @@ class ResponseController extends Controller
         $users = User::all();
         return $users;
     }
+
+
+    public function add()
+    {
+        $input = Request::all();
+        User::create($input);
+        return $input;
+    }
+
+
+    public function login()
+    {
+        return response()->json(['success' => 'Successfull', 'message' => 'Hey , I will kill you ', 'user_id' => '1']);
+    }
+
+
+    public function user($id)
+    {
+        $user = User::find($id);
+        echo 'The user id of '.$id.' has email : '. $user->email;
+    }
+    
 }
